@@ -1,6 +1,8 @@
 # design-patterns-typescript
 Design patterns in TypeScript.
 
+The design patterns are located in their own folder, under 'src'.
+
 ## Installing dependencies - Always run first!
 `npm install`
 
