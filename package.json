@@ -5,7 +5,8 @@
   "main": "src/main.ts",
   "homepage": "./",
   "scripts": {
-    "compile": "tsc"
+    "compile": "tsc",
+    "playground": "npm run compile && node build/main.js"
   },
   "devDependencies": {
     "@types/node": "^10.0.8",
