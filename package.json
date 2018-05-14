@@ -1,0 +1,14 @@
+{
+  "name": "design-patterns-typescript",
+  "version": "0.0.1",
+  "private": true,
+  "main": "src/main.ts",
+  "homepage": "./",
+  "scripts": {
+    "start": "npm run compile & node dist/main.js",
+    "compile": "tsc"
+  },
+  "devDependencies": {
+    "typescript": "^2.7.2"
+  }
+}
