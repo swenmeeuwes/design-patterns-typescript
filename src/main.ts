@@ -40,3 +40,19 @@ hero.damageStrategy = new IgnoreArmorDamageStrategy();
 hero.attack(monster);
 console.log(`Monster now has an hp of: ${monster.currentStats.health}.`);
 // End of Strategy ---
+
+// Observer
+import AchievementHandler from "./observer/AchievementHandler";
+import Tutorial from "./observer/Tutorial";
+
+console.log('\nOBSERVER');
+
+const tutorial = new Tutorial();
+const achievementHandler = new AchievementHandler();
+
+tutorial.register(achievementHandler);
+
+console.log(tutorial.nextInstruction());
+console.log(tutorial.nextInstruction());
+console.log(tutorial.nextInstruction());
+// End of Observer ---
