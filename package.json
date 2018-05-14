@@ -5,7 +5,6 @@
   "main": "src/main.ts",
   "homepage": "./",
   "scripts": {
-    "start": "npm run compile & node dist/main.js",
     "compile": "tsc"
   },
   "devDependencies": {
