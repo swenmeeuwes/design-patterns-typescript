@@ -8,6 +8,7 @@
     "compile": "tsc"
   },
   "devDependencies": {
+    "@types/node": "^10.0.8",
     "typescript": "^2.7.2"
   }
 }
